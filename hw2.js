@@ -14,19 +14,13 @@ console.log(arr[9])
 
 // ================================================================================
 
-let descriptionBooks =[
-    ["title"],
-    ["pageCount"],
-    ["genre"],
-]
+let descriptionBooks = {
+
+    title: 'sun',
+    pageCount: 300,
+    genre: `action`,
+    authors: {name: `vasia`, age: 85}
+}
 console.log(descriptionBooks)
 
 // -------------------------------------------------------------------------------
-
-let description =[
-    ["title"],
-    ["pageCount"],
-    ["genre"],
-    ["authors", [`name`, `age`]]
-]
-console.log(description)
