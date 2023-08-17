@@ -24,3 +24,16 @@ let descriptionBooks = {
 console.log(descriptionBooks)
 
 // -------------------------------------------------------------------------------
+
+let users=[
+    { name:'iaroslav' ,username: 'jarek',password:' '},
+    { name:'vasia' ,username: 'vassul',password:' '},
+    { name:'ivan' ,username: 'vanja',password:' '},
+    { name:'katja' ,username: 'ket',password:' '},
+    { name:'orest' ,username: 'orest01',password:' '},
+    { name:'pelup' ,username: 'pelup5',password:' '},
+    { name:'max' ,username: 'max12',password:' '},
+    { name:'oleg' ,username: 'oleg25',password:' '},
+    { name:'tomara' ,username: 'toma',password:' '},
+]
+console.log(users)
