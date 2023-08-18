@@ -4,57 +4,57 @@
 // // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.
 // // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
-
-let arr=[
-    100, "name", "book","page","username", 323.14, -0.33, 42100, `okten`, `Lesson`
-]
-console.log(arr[0])
-console.log(arr[1])
-console.log(arr[2])
-console.log(arr[3])
-console.log(arr[4])
-console.log(arr[5])
-console.log(arr[6])
-console.log(arr[7])
-console.log(arr[8])
-console.log(arr[9])
 //
-// // // // ================================================================================
+// let arr=[
+//     100, "name", "book","page","username", 323.14, -0.33, 42100, `okten`, `Lesson`
+// ]
+// console.log(arr[0])
+// console.log(arr[1])
+// console.log(arr[2])
+// console.log(arr[3])
+// console.log(arr[4])
+// console.log(arr[5])
+// console.log(arr[6])
+// console.log(arr[7])
+// console.log(arr[8])
+// console.log(arr[9])
+// //
+// // // // // ================================================================================
+// //
+// let descriptionBooks = {
 //
-let descriptionBooks = {
-
-    title: 'sun',
-    pageCount: 300,
-    genre: `action`,
-    authors: {name: `vasia`, age: 85}
-}
-console.log(descriptionBooks)
+//     title: 'sun',
+//     pageCount: 300,
+//     genre: `action`,
+//     authors: {name: `vasia`, age: 85}
+// }
+// console.log(descriptionBooks)
 
 // // // -------------------------------------------------------------------------------
 
 
-let users=[
-    { name:'iaroslav' ,username: 'jarek',password:'21'},
-    { name:'vasia' ,username: 'vassul',password:'13'},
-    { name:'ivan' ,username: 'vanja',password:'22'},
-    { name:'katja' ,username: 'ket',password:'145'},
-    { name:'orest' ,username: 'orest01',password:'1254'},
-    { name:'pelup' ,username: 'pelup5',password:'333'},
-    { name:'max' ,username: 'max12',password:'021'},
-    { name:'oleg' ,username: 'oleg25',password:'54'},
-    { name:'tomara' ,username: 'toma',password:'458'},
-    { name:'petro' ,username: 'petya01',password:'1578'},
-]
-console.log(users [0].password)
-console.log(users [1].password)
-console.log(users [2].password)
-console.log(users [3].password)
-console.log(users [4].password)
-console.log(users [5].password)
-console.log(users [6].password)
-console.log(users [7].password)
-console.log(users [8].password)
-console.log(users [9].password)
+// let users=[
+//     { name:'iaroslav' ,username: 'jarek',password:'21'},
+//     { name:'vasia' ,username: 'vassul',password:'13'},
+//     { name:'ivan' ,username: 'vanja',password:'22'},
+//     { name:'katja' ,username: 'ket',password:'145'},
+//     { name:'orest' ,username: 'orest01',password:'1254'},
+//     { name:'pelup' ,username: 'pelup5',password:'333'},
+//     { name:'max' ,username: 'max12',password:'021'},
+//     { name:'oleg' ,username: 'oleg25',password:'54'},
+//     { name:'tomara' ,username: 'toma',password:'458'},
+//     { name:'petro' ,username: 'petya01',password:'1578'},
+// ]
+// console.log(users [0].password)
+// console.log(users [1].password)
+// console.log(users [2].password)
+// console.log(users [3].password)
+// console.log(users [4].password)
+// console.log(users [5].password)
+// console.log(users [6].password)
+// console.log(users [7].password)
+// console.log(users [8].password)
+// console.log(users [9].password)
 
 
 
@@ -64,14 +64,14 @@ console.log(users [9].password)
 // // // Перевірте  скрипт при a, що дорівнює 1, 0, -3
 
 
-let x=+prompt('123')
-if (x===1) {
-    console.log(true);
-}else if (x===-3) {
-    console.log(true);
-} else if (x===0) {
-    console.log(false);
-}
+// let x=+prompt('123')
+// if (x===1) {
+//     console.log(true);
+// }else if (x===-3) {
+//     console.log(true);
+// } else if (x===0) {
+//     console.log(false);
+// }
 
 // // - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить,
 // // до якої четверті години попадає число
@@ -94,34 +94,34 @@ if (x===1) {
 // // що заплановано на цей день (можна замість плану на день, назву дня англійською).
 
 
-let day = prompt('enter day');
-
-switch (day) {
-    case 'Monday' :
-        console.log('box');
-        break
-    case 'Tuesday':
-        console.log('fitnes');
-        break
-    case 'Wednesday':
-        console.log('ballet');
-        break
-    case 'Thursday':
-        console.log('dance');
-        break
-    case 'Friday':
-        console.log('tennis');
-        break
-    case 'Saturday':
-        console.log('volleyball');
-        break
-    case 'Sunday':
-        console.log('relax');
-        break
-
-    default:
-        console.log('heppy');
-}
+// let day = prompt('enter day');
+//
+// switch (day) {
+//     case 'Monday' :
+//         console.log('box');
+//         break
+//     case 'Tuesday':
+//         console.log('fitnes');
+//         break
+//     case 'Wednesday':
+//         console.log('ballet');
+//         break
+//     case 'Thursday':
+//         console.log('dance');
+//         break
+//     case 'Friday':
+//         console.log('tennis');
+//         break
+//     case 'Saturday':
+//         console.log('volleyball');
+//         break
+//     case 'Sunday':
+//         console.log('relax');
+//         break
+//
+//     default:
+//         console.log('heppy');
+// }
 
 // -Користувач вводить або має два числа.
 //  Потрібно знайти та вивести максимальне число з тих двох .
@@ -137,7 +137,7 @@ switch (day) {
 // У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
 
 
-    let coursesAndDurationArray = [
+let coursesAndDurationArray = [
     {title: 'JavaScript Complex', monthDuration: 5},
     {title: 'Java Complex', monthDuration: 6},
     {title: 'Python Complex', monthDuration: 6},
@@ -145,7 +145,6 @@ switch (day) {
     {title: 'FullStack', monthDuration: 7},
     {title: 'Frontend', monthDuration: 4}
 ];
-
 
 // ----------------------------------------------------------------------------------------
 
