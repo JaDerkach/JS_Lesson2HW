@@ -22,9 +22,9 @@
 // // // // // ================================================================================
 
 let booksList=[
-    {title:'Project Gutenberg' ,pageCount: 158, genre: 'history', authors:['Michael Hart' ,45 ]},
-    {title:'Internet Archive' ,pageCount:302, genre: 'action', authors:['Ivan Dart',58]},
-    {title:'Free eBooks' ,pageCount: 254, genre: 'geography', authors:['Nick Part',35]},
+    {title:'Project Gutenberg' ,pageCount: 158, genre: 'history', authors:[{name:'Michael Hart' ,age:45 }]},
+    {title:'Internet Archive' ,pageCount:302, genre: 'action', authors:[{nane:'Ivan Petren',age:58}]},
+    {title:'Free eBooks' ,pageCount: 254, genre: 'geography', authors:[{name:'Nick Part',age:35}]},
 ]
 console.log(booksList)
 
