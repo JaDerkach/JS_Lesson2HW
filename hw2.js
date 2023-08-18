@@ -26,14 +26,25 @@ console.log(descriptionBooks)
 // -------------------------------------------------------------------------------
 
 let users=[
-    { name:'iaroslav' ,username: 'jarek',password:' '},
-    { name:'vasia' ,username: 'vassul',password:' '},
-    { name:'ivan' ,username: 'vanja',password:' '},
-    { name:'katja' ,username: 'ket',password:' '},
-    { name:'orest' ,username: 'orest01',password:' '},
-    { name:'pelup' ,username: 'pelup5',password:' '},
-    { name:'max' ,username: 'max12',password:' '},
-    { name:'oleg' ,username: 'oleg25',password:' '},
-    { name:'tomara' ,username: 'toma',password:' '},
+    { name:'iaroslav' ,username: 'jarek',password:'21'},
+    { name:'vasia' ,username: 'vassul',password:'13'},
+    { name:'ivan' ,username: 'vanja',password:'22'},
+    { name:'katja' ,username: 'ket',password:'145'},
+    { name:'orest' ,username: 'orest01',password:'1254'},
+    { name:'pelup' ,username: 'pelup5',password:'333'},
+    { name:'max' ,username: 'max12',password:'021'},
+    { name:'oleg' ,username: 'oleg25',password:'54'},
+    { name:'tomara' ,username: 'toma',password:'458'},
+    { name:'petro' ,username: 'petya01',password:'1578'},
 ]
-console.log(users)
+console.log(users [0].password)
+console.log(users [1].password)
+console.log(users [2].password)
+console.log(users [3].password)
+console.log(users [4].password)
+console.log(users [5].password)
+console.log(users [6].password)
+console.log(users [7].password)
+console.log(users [8].password)
+console.log(users [9].password)
+//---------------------------------------------------------------------------------------------
