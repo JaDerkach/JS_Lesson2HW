@@ -20,21 +20,20 @@
 // console.log(arr[9])
 // //
 // // // // // ================================================================================
-// //
-// let descriptionBooks = {
-//
-//     title: 'sun',
-//     pageCount: 300,
-//     genre: `action`,
-//     authors: {name: `vasia`, age: 85}
-// }
-// console.log(descriptionBooks)
+
+let booksList=[
+    {title:'Project Gutenberg' ,pageCount: 158, genre: 'history', authors:['Michael Hart' ,45 ]},
+    {title:'Internet Archive' ,pageCount:302, genre: 'action', authors:['Ivan Dart',58]},
+    {title:'Free eBooks' ,pageCount: 254, genre: 'geography', authors:['Nick Part',35]},
+]
+console.log(booksList)
+
 
 // // // -------------------------------------------------------------------------------
 
 
 // let users=[
-//     { name:'iaroslav' ,username: 'jarek',password:'21'},
+//     { name:'yaroslav' ,username: 'jarek',password:'21'},
 //     { name:'vasia' ,username: 'vassul',password:'13'},
 //     { name:'ivan' ,username: 'vanja',password:'22'},
 //     { name:'katja' ,username: 'ket',password:'145'},
