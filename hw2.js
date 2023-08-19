@@ -76,7 +76,7 @@
 // // до якої четверті години попадає число
 // // (в першу, другу, третю или четверту частину години).
 
-let time = prompt(59)
+let time = +prompt('time 0-59')
 if (time >=0 && time <= 14)
     console.log(1)
 if (time >=15 && time <= 29)
@@ -92,7 +92,13 @@ if (time >=45 && time <= 59)
 // // місяця потрапляє це число (у першу, другу чи третю).
 
 
-
+let day = +prompt('day 1-30')
+if (day >=0 && day <= 9)
+    console.log(1)
+if (day >=10 && day <= 19)
+    console.log(2)
+if (day >=20 && day <= 30)
+    console.log(3)
 
 
 
@@ -145,12 +151,12 @@ if (time >=45 && time <= 59)
 
 
 let coursesAndDurationArray = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Complex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
+    {title1: 'JavaScript Complex', monthDuration: 5},
+    {title2: 'Java Complex', monthDuration: 6},
+    {title3: 'Python Complex', monthDuration: 6},
+    {title4: 'QA Complex', monthDuration: 4},
+    {title5: 'FullStack', monthDuration: 7},
+    {title6: 'Frontend', monthDuration: 4}
 ];
 
 // ----------------------------------------------------------------------------------------
