@@ -21,12 +21,12 @@
 // //
 // // // // // ================================================================================
 
-let booksList=[
-    {title:'Project Gutenberg' ,pageCount: 158, genre: 'history', authors:[{name:'Michael Hart' ,age:45 }]},
-    {title:'Internet Archive' ,pageCount:302, genre: 'action', authors:[{nane:'Ivan Petren',age:58}]},
-    {title:'Free eBooks' ,pageCount: 254, genre: 'geography', authors:[{name:'Nick Part',age:35}]},
-]
-console.log(booksList)
+// let booksList=[
+//     {title:'Project Gutenberg' ,pageCount: 158, genre: 'history', authors:[{name:'Michael Hart' ,age:45 }]},
+//     {title:'Internet Archive' ,pageCount:302, genre: 'action', authors:[{nane:'Ivan Petren',age:58}]},
+//     {title:'Free eBooks' ,pageCount: 254, genre: 'geography', authors:[{name:'Nick Part',age:35}]},
+// ]
+// console.log(booksList)
 
 
 // // // -------------------------------------------------------------------------------
@@ -76,7 +76,15 @@ console.log(booksList)
 // // до якої четверті години попадає число
 // // (в першу, другу, третю или четверту частину години).
 
-
+let time = prompt(59)
+if (time >=0 && time <= 14)
+    console.log(1)
+if (time >=15 && time <= 29)
+    console.log(2)
+if (time >=29 && time <= 45)
+    console.log(3)
+if (time >=45 && time <= 59)
+    console.log(4)
 
 
 
